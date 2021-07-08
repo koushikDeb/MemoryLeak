@@ -48,7 +48,7 @@ class DownloadFileTask extends AsyncTask<Void, Void, Bitmap> {
         }
         else
         {
-            dnStatus.DownLoadFailed();
+            dnStatus.DownLoadFailed();// Need reason for failure  
         }
 
 
